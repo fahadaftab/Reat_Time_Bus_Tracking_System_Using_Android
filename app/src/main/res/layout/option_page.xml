@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button"
+        android:orientation="vertical">
+        <util.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="35dp"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="start|center"
+            android:gravity="start"
+            android:id="@+id/name"
+            style="@style/FullWidthEditText"
+            android:text="Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:elevation="3dp"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="start|center"
+            android:gravity="start"
+            android:id="@+id/email"
+            style="@style/FullWidthEditText"
+            android:text="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:elevation="3dp"/>
+
+        <TableLayout
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_pin"
+                    android:tint="#6EC50B"
+                    />
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                   android:layout_gravity="center"
+                    android:text="Share Location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"/>
+
+
+            </TableRow>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                />
+            <TableRow>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_pin"
+                    android:tint="#FF0840"
+                    />
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center"
+                    android:text="Stop Location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   android:textColor="@color/black"/>
+
+
+            </TableRow>
+        </TableLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">REC GO</string>
+    <string name="student_register">Student Registration</string>
+    <string name="driver_register">Driver Registration</string>
+    <string name="route">Route</string>
+    <string name="api_key">AIzaSyBAoSx5j9CDHxTtUqOYSgA527a3blYq280</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="default_notification_channel_id" translatable="false">REC GO</string>
+
+    <string name="default_notification_channel_name" translatable="true">News</string>
+
+    <string name="first">Transport Managers and College Administrators have various tasks including student safety, Addressing parent concerns, College Bus Routing, allocation and optimization. Track of College Bus solution for colleges makes all of these tasks easier with intelligent management tools, communication and reporting  facilities.This App can locate the bus using Driver’s phone location .So that students and college transport manager can able to locate actual location , distance between buses and route of these college buses .</string>
+
+    <string name="second">Many students and staff members are often late for college because they decide to wait for the bus instead of using an alternate transportation.To reduce this confusion and inconvenience, a message will be shown on the web that will provide the real-time information about the bus showing its arrival time which could reduce the anxiety of passengers waiting for the bus.This App can locate the bus using Driver’s phone location .So that students and college transport manager can able to locate actual location , distance between buses and route of these college buses .</string>
+
+    <string name="third">Contact Number: Prof.Uttam Kumar Jena(HOD)of CSE and MCA:9937541541</string>
+
+    <string name="fourth">© 2020 Raajdhani Engineering College GO App | All Rights Reserved.</string>
+
+    <string name="fifth">Developed By | Md.Fahad Aftab And Team (1601294043,158,025,145,160,047,198) Guided By | Prof.Uttam Kumar Jena (HOD) of CSE and MCA.</string>
+
+</resources>

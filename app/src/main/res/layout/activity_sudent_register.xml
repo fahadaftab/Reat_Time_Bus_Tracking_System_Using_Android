@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SudentRegisterActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_student"
+        android:layout_margin="25dp"
+        android:src="@drawable/ic_left_arrow"/>
+    <util.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_register"
+        android:layout_gravity="center|top"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+
+    <FrameLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:elevation="5dp"
+                android:src="@drawable/ic_reading"
+                android:layout_margin="20dp"/>
+            <FrameLayout
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:elevation="5dp"
+                android:background="@drawable/button">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/circle_grew"
+                        android:layout_gravity="center">
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_user"
+                            android:tint="@color/white"
+                            android:layout_gravity="center"/>
+                    </FrameLayout>
+
+                    <EditText
+                        android:layout_gravity="start"
+                        android:gravity="start"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/name"
+                        style="@style/FullWidthEditText"
+                        android:hint="Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </FrameLayout>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <FrameLayout
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:elevation="5dp"
+                android:background="@drawable/button">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/circle_grew"
+                        android:layout_gravity="center">
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_mail"
+                            android:tint="@color/white"
+                            android:layout_gravity="center"/>
+                    </FrameLayout>
+                    <EditText
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/email"
+                        android:layout_gravity="start"
+                        android:gravity="start"
+                        android:inputType="textEmailAddress"
+                        style="@style/FullWidthEditText"
+                        android:hint="Enter email-id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </FrameLayout>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <FrameLayout
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:elevation="5dp"
+                android:background="@drawable/button">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <FrameLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/circle_grew"
+                        android:layout_gravity="center">
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_password"
+                            android:tint="@color/white"
+                            android:layout_gravity="center"/>
+                    </FrameLayout>
+                    <EditText
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/password"
+                        android:layout_gravity="start"
+                        android:gravity="start"
+                        android:inputType="textPassword"
+                        style="@style/FullWidthEditText"
+                        android:hint="Choose password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </FrameLayout>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:checked="true"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:text=" I agree to the term &amp; conditions."/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/registerStudent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="      Register      "
+                android:padding="5dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textAllCaps="false"
+                android:background="@drawable/button"
+                android:layout_gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+</FrameLayout>
